@@ -27,3 +27,21 @@ O projeto foi estruturado em camadas para garantir a qualidade e a governança d
 
 ---
 💡 *Este projeto demonstra habilidades em Engenharia de Dados, Cloud Computing e preparação de datasets para modelos produtivos de Inteligência Artificial.*
+
+
+---
+
+## 🌎 English Summary
+
+### **AI Engineering & MLOps Project: Medallion Data Pipeline**
+
+This repository showcases a complete data pipeline developed during my **AI Engineering & MLOps specialization at PUC Minas**. The project focuses on processing financial data (Apple - AAPL) using the Medallion Architecture for high-quality machine learning training.
+
+**Key Highlights:**
+* **Bronze Layer:** Raw data ingestion from AlphaVantage API to AWS S3.
+* **Silver Layer:** Data cleaning, null handling, and type standardization using Pandas.
+* **Gold Layer (Feature Engineering):** Technical indicators (SMA, RSI) calculation and data scaling via `StandardScaler` to ensure model readiness.
+
+**Tech Stack:** Python (Pandas, Boto3, Scikit-Learn), AWS S3, Git & GitHub.
+
+---
